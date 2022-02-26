@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <listeners>
+        <listener class-name="com.mystore.utility.ListenerClass"></listener>
+    </listeners>
+    <test verbose="2" preserve-order="true"
+          name="C:/Users/Zhadyra_Oralkhanova/OneDrive - EPAM/Desktop/level_up/testAutomationFramework/src/test/java/com/mystore/testcases">
+        <classes>
+            <class name="com.mystore.testcases.AccountCreationPageTest">
+            </class>
+            <class name="com.mystore.testcases.AddToCartPageTest">
+            </class>
+            <class name="com.mystore.testcases.EndToEndTest">
+            </class>
+            <class name="com.mystore.testcases.HomePageTest">
+            </class>
+            <class name="com.mystore.testcases.IndexPageTest">
+            </class>
+            <class name="com.mystore.testcases.LoginPageTest">
+            </class>
+            <class name="com.mystore.testcases.OrderPageTest">
+            </class>
+            <class name="com.mystore.testcases.SearchResultPageTest">
+            </class>
+        </classes>
+    </test>
+</suite>

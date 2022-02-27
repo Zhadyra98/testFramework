@@ -4,8 +4,8 @@
     <listeners>
         <listener class-name="com.mystore.utility.ListenerClass"></listener>
     </listeners>
-    <test verbose="2" preserve-order="true"
-          name="C:/Users/Zhadyra_Oralkhanova/OneDrive - EPAM/Desktop/level_up/testAutomationFramework/src/test/java/com/mystore/testcases">
+    <test thread-count="5" name="Test_All">
+        <parameter name="browser" value="Chrome"></parameter>
         <classes>
             <class name="com.mystore.testcases.AccountCreationPageTest">
             </class>

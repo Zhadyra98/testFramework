@@ -42,6 +42,6 @@ public class HomePageTest extends BaseClass {
         loginPage = indexPage.clickOnSignIn();
         homePage = loginPage.login(prop.getProperty("username"),prop.getProperty("password"));
         boolean result = homePage.validateOrderHistory();
-        Assert.assertTrue(false);
+        Assert.assertTrue(result);
     }
 }
